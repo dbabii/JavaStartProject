@@ -1,11 +1,13 @@
+package JavaStart.Lessons_1_2;
+
 /**
  * Created by book on 29.05.17.
  */
 public class DateCalculator {
     public static void main(String[] args) {
-        int days = 520;
+        int days = 359;
 
-        int year = days / 360 + 1 ;
+        int year = days / 360;// + 1 ;
         int month = days % 360  / 30 + 1;
         int day = days % 360 % 30 + 1;
 

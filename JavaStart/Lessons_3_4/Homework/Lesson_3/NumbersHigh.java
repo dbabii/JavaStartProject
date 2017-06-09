@@ -18,8 +18,13 @@ public class NumbersHigh {
         if ((a<b)&&(b<c))
             System.out.println("First: " +a + " " + b +" "+ c);
         // not ended, if a=6, b=8, c=1 --> print 2nd
-        else if ((a<b)&&(b>c))
-            System.out.println("Second: " + a +" "+ c +" "+ b);
+        else if ((a<b)&&(b>c)){
+            if (a<c)
+                System.out.println("Second one: " + a + " " + c + " " + b);
+            else
+                System.out.println("Second two: " + c + " " + a + " " + b );
+        }
+
         else if ((c<b) && (b<a))
             System.out.println("Thirdly: " + c + " " + b + " " +  a);
         else System.out.println("Fourtly: " + b + " " + a + " " + c);

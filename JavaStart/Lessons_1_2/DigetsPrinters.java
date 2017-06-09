@@ -1,3 +1,5 @@
+package JavaStart.Lessons_1_2;
+
 /**
  * Created by book on 29.05.17.
  */
