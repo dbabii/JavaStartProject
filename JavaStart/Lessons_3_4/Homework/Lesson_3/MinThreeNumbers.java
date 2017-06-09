@@ -26,6 +26,15 @@ public class MinThreeNumbers {
             System.out.println("Min = " + b);
         else if ((a>b)&& (b>c))
             System.out.println("Min = " + c);
+        else if ((a == b)&&(b>c))
+        System.out.println("Min = " + c);
+        else if ((a>b) && (b == c))
+            System.out.println("Min = " + b);
+        else
+            System.out.println("Min = " + a);
+
+        System.out.println("a");
+
 
     }
 }
