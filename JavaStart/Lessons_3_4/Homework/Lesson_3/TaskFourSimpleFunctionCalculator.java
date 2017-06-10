@@ -2,6 +2,9 @@ package JavaStart.Lessons_3_4.Homework.Lesson_3;
 
 import java.util.Scanner;
 
+/**
+ * Created by edu on 005 05.06.17.
+ */
 public class TaskFourSimpleFunctionCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
