@@ -2,7 +2,7 @@ package JavaStart.Lessons_3_4.Homework.Lesson_4.Cycle;
 import java.util.Scanner;
 
 /**
- * Created by book on 010 10.06.17.
+ * Created on 010 10.06.17.
  */
 public class PrintNumbersOddFromTo {
     public static void main(String[] args) {
