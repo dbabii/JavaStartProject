@@ -1,5 +1,6 @@
-package JavaStart.Lessons_3_4.Homework.Lesson_4.Cycle;
+package JavaStart.Lessons_3_4.Homework.Lesson_4.StarOne.Conditions;
 import java.util.Scanner;
+
 /**
  * Created by book on 010 10.06.17.
  */
