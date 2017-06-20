@@ -9,10 +9,8 @@ public class ArrayPositiveFinder {
             if (arrayFirst[i] > 0) {
                 return i;
             }
-
         }
         return -1;
-
     }
 
     public static int findLastPositiveElemIndex (int[] arrayLast){
@@ -20,7 +18,6 @@ public class ArrayPositiveFinder {
             if (arrayLast[i] > 0) {
                 return i;
             }
-
         }
         return -1;
     }

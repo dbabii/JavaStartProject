@@ -1,4 +1,4 @@
-package JavaStart.Lessons_3_4.Homework.Lesson_4.StarOne.Conditions;
+package JavaStart.Lessons_3_4.Homework.Lesson_4.StarOne.Conditions.TryExamples;
 import java.util.Scanner;
 
 /**

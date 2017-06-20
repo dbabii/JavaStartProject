@@ -5,16 +5,13 @@ import java.util.Scanner;
 /**
  * Created on 12.06.17.
  */
-public class MInMaxCalculator {
-    public static void minMax (int a, int b){
-        if (a<b) {
-            System.out.print("min = " + a + " ");
-            System.out.println("max = " + b);
-        } else {
-            System.out.print("min = " + b + " ");
-            System.out.println("max = " + a);
-        }
-        return;
+public class MinMaxCalculator {
+    public static int max(int a, int b){
+        return a > b ? a : b;
+    }
+
+    public static int min (int a, int b){
+        return a < b ? a : b;
     }
 
     public static void main(String[] args) {
@@ -23,8 +20,8 @@ public class MInMaxCalculator {
         int firstNum = scanner.nextInt();
         System.out.print("Enter second number: ");
         int secondNum = scanner.nextInt();
-
-        minMax(firstNum, secondNum);
+        //BL
+        System.out.println("Min = " + min(firstNum, secondNum) + ", max = " + max(firstNum, secondNum));
     }
 
 }

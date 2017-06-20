@@ -12,8 +12,6 @@ public class EvensRangePrinter {
                 System.out.print(i + " ");
             }
         } else ;
-        return;
-
     }
 
     public static void main(String[] args) {

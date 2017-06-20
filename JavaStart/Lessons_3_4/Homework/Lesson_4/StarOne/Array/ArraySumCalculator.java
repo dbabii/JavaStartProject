@@ -9,13 +9,12 @@ public class ArraySumCalculator {
         for (int i : arrayMethod) {
             sum += i;
         }
-        System.out.println("sum = " + sum);
         return sum;
     }
 
     public static void main(String[] args) {
         int[] array = {10, 39, 40};
-        sum(array);
+        System.out.println(sum(array));
     }
 
 }

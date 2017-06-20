@@ -16,7 +16,6 @@ public class RangePrinter {
                 System.out.print(i + " ");
             }
         }
-    return;
     }
 
     public static void main(String[] args) {
